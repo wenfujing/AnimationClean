@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--圆环-->
+    <color name="white">#55ff</color>
+    <color name="white2">#99ff00</color>
+    <color name="colorGre">#0066FF</color>
+</resources>

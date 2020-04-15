@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tc="http://schemas.android.com/apk/res-auto"
+    android:background="#33000000"
+    android:id="@+id/ll"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+        <!--<com.wyt.animationclean.view.MyProgreeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />-->
+        <com.wyt.animationclean.view.GarbageClearView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            tc:circleColor="@color/white"
+            tc:radius="60dip"
+            tc:ringBgColor="@color/white2"
+            tc:ringColor="@color/colorGre"
+            tc:strokeWidth="10dip"
+            />
+
+        <TextView
+            android:id="@+id/clear_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="正在清理...." />
+    </LinearLayout>
+
+
+</LinearLayout>
